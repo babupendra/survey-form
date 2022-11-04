@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+
+        }
+        .background{
+            background-image: url(n3.jpeg);
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+
+
+            
+        }
+        .border{
+            background-color: aliceblue;
+            border: solid green;
+            border-radius: 15px;
+            position: absolute;
+            padding: 15px;
+            padding-top: 15px;
+            padding-left: 15px;
+            text-align: center;
+            justify-content: center;
+            justify-items: center;
+            margin-top: 200px;
+            margin-left: 590px;
+
+            
+
+
+
+        }
+        .background h1{
+            color: chartreuse;
+            text-align: center;
+            
+        }
+        .background h1 span{
+            background-color: azure;
+            color: black;
+            border-radius: 15px;
+
+        }
+        .background h1 span:hover{
+            color: blueviolet;
+            background-color: chartreuse;
+
+        }
+        .name{
+            color: rgb(0, 0, 0);
+            text-align: center;
+            align-items: center;
+            
+
+        }
+        .mobile{
+             margin-top: 15px;
+        }
+        .dob{
+            margin-top: 15px;
+        }
+        .do{
+            margin-top: 15px;
+        }
+        .gender{
+            color: azure;
+            margin-top: 15px;
+            background-color: black;
+            position: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .age{
+            margin-top: 15px;
+            background-color: coral;
+            border-radius: 15px;
+            position: center;
+            padding: 10px;
+
+        }
+        button{
+            margin-top: 20px;
+            background-color: aqua;
+            border-radius: 20px;
+            padding: 20px;
+
+        }
+        button:hover{
+            background-color: greenyellow;
+
+        }
+        .fatherdob{
+            margin-top: 15px;
+            
+            border-radius: 15px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="background"> <h1>REGISTER here for <span>workshop</span></h1>
+        <div class="border">
+
+        <div class="name"> NAME :
+        <input type="text"> </div>
+        <div class="mobile">phone number :
+            <input type="number"></div>
+            <div class="dob">date of birth <input type="date"></div>
+            <div class="do">do you know about this workshop <input type="options"> <br> <u>type yes or no</u></div>
+            <div class="gender"> <label  for="gender">select your gender</label>
+                <select name="gender">
+                <option value="none">selected gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option></div>
+            </select>
+            <div class="age">Age : <input type="number"> </div>
+            <div class="fatherdob"> Father Date of birth <input type="date"></div>
+    </div>
+    <button>submit here</button>
+    </div>
+</body>
+</html>
